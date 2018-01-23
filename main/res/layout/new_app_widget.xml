@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0cccaca"
+    android:padding="@dimen/widget_margin"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                app:srcCompat="@android:drawable/ic_menu_send"
+                android:id="@+id/imageView1" />
+
+            <TextView
+                android:text="  09:00-12:00 英语"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView1"
+                android:layout_weight="1"
+                android:textSize="36sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0000000">
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                app:srcCompat="@android:drawable/ic_menu_send"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:text="  13:00-16:00 数学"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:textSize="36sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0000000">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                app:srcCompat="@android:drawable/ic_menu_send"
+                android:id="@+id/imageView3" />
+
+            <TextView
+                android:text="  16:00-17:00 专业"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView3"
+                android:layout_weight="1"
+                android:textSize="36sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0000000">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                app:srcCompat="@android:drawable/ic_menu_send"
+                android:id="@+id/imageView4" />
+
+            <TextView
+                android:text="  21:00-22:00 编程"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView4"
+                android:layout_weight="1"
+                android:textSize="36sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0000000">
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
